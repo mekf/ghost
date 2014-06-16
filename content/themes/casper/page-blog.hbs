@@ -1,0 +1,17 @@
+{{!< default}}
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var $posts = $('#posts');
+    if ( location.pathname !== '/' ) {
+      $posts.load('/ #posts article');
+    }
+  })
+</script>
+
+<main class="content" role="main">
+
+  <section id="posts">
+  </section>
+
+</main>
