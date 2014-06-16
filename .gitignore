@@ -1,5 +1,8 @@
 .DS_Store
 
+# Ghost DB
+/content/data/*.db
+
 # https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
 logs
